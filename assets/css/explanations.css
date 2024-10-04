@@ -8,7 +8,7 @@ p, h2, h1 { /* Targets all <p> <h1> and <h2> elements */
 }
 
 section > p { /* Targets only direct <p> desendants of a <div> */
-<section>
+/* <section>
     <div>
         <p>Won't target this one</p>
     </div>
@@ -21,10 +21,19 @@ p:hover{ /* :hover is a pseudo class that applys the style when the mouse is ove
 }
 
 p ~ span{ /* ~ Targets only siblings */
-    <div>
+    /* <div>
         <p>Be true to your work, your word, and your friend.</p>
         <span>Luck is believing you're lucky.</span>
-    </div>
+    </div> */
 }
 
-/*  */ 
+/* Properties */ 
+/* 
+background-color: red;      | Sets the background color of the targeted element | can use rgb(255, 0, 0) | hsl(0, 100%, 50%) | #ff0000 | red
+color: white;               | Sets the color of text | can use rgb(255, 0, 0) | hsl(0, 100%, 50%) | #ff0000 | red
+text-align:                 |left|right|center|justify|initial|inherit;
+font-family:                |family-name|generic-family|initial|inherit;
+font-size:                  |medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit;
+
+
+*/
