@@ -29,11 +29,11 @@ p ~ span{ /* ~ Targets only siblings */
 
 /* Properties */ 
 /* 
-background-color: red;      | Sets the background color of the targeted element | can use rgb(255, 0, 0) | hsl(0, 100%, 50%) | #ff0000 | red
 color: white;               | Sets the color of text | can use rgb(255, 0, 0) | hsl(0, 100%, 50%) | #ff0000 | red
-text-align:                 |left|right|center|justify|initial|inherit;
-font-family:                |family-name|generic-family|initial|inherit;
-font-size:                  |medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit;
+text-align:                 | Align the text to a certain place | left|right|center|justify|initial|inherit;
+font-family:                | Changes the font family of text |family-name|generic-family|initial|inherit;
+font-size:                  | Self Explanitory |medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit;
+font-style:                 | Allows to change the text style |normal|italic|oblique|initial|inherit;
 
 
 */
