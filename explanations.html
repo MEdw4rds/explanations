@@ -1,0 +1,200 @@
+
+<!-- basic structure ! Tab to create -->
+
+<!-- All HTML documents must start with a <!DOCTYPE> declaration.
+The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect. -->
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assests/css/explanations.css"> 
+
+    <!--                Embedded Style 
+             keywords/author/description/viewport
+          https://www.w3schools.com/tags/tag_meta.asp   -->
+
+</head>
+<body>
+    
+    <!-- Elements Here -->
+
+</body>
+</html>
+
+
+    <!-- Elements -->
+
+
+<!-- A -->
+<a href="" target=""></a> <!-- href can be used to move up and down a page with an id="#IDname" or a link https://www.w3schools.com/tags/tag_a.asp -->
+
+
+<!-- Nav -->
+<nav> <!-- Semantic element. The <nav> tag defines a set of navigation links. Only intended for a block of navigation links -->
+
+
+<!-- Header -->
+<header></header> <!-- Semantic element. The <header> element represents a container for introductory content or a set of navigational links. https://www.w3schools.com/tags/tag_header.asp -->
+
+
+<!-- Footer --> 
+<footer></footer> <!-- Semantic element.  Provides semantic context for footer information: author, copyright, relevant links etc. https://www.w3schools.com/tags/tag_footer.asp -->
+
+
+<!-- Headings https://www.w3schools.com/tags/tag_hn.asp -->
+<h1>Text</h1> <!-- Largest font size-->
+<h2>Text</h2>
+<h3>Text</h3>
+<h4>Text</h4>
+<h5>Text</h5>
+<h6>Text</h6> <!-- Smallest font size-->
+
+
+<!-- Paragraph -->
+<p>Text</p>
+
+
+<!-- Section -->
+<section></section>     <!-- Semantic element. Contains a section of content within a page, use this element to break up the content of your page in a logical way. https://www.w3schools.com/tags/tag_section.asp -->
+
+
+<!-- Article -->
+<article></article>     <!-- Semantic element. Contains content within a page that could be taken out of the page context and still make sense. https://www.w3schools.com/tags/tag_article.asp -->
+
+
+<!-- Aside -->
+<aside></aside>         <!-- Semantic element. Contains content within a page that is indirectly related to the main content. https://www.w3schools.com/tags/tag_article.asp -->
+
+
+<!-- Div -->
+<div></div>             <!-- The <div> tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript. block-level element https://www.w3schools.com/tags/tag_div.asp -->
+
+
+<!-- Span -->
+<span></span>           <!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document. -->
+
+
+<!-- Ordered List -->
+<ol type="1,a,A,i,I">  <!-- The <ol> tag defines an ordered list. An ordered list can be numerical or alphabetical. https://www.w3schools.com/tags/tag_ol.asp -->
+    <li></li>           <!-- The <li> tag defines a list item. https://www.w3schools.com/tags/tag_li.asp -->
+    <li>
+        <ol>
+            <li></li>   <!-- Nested List -->
+        </ol>
+    </li>
+</ol>
+
+
+<!-- Unordered List -->
+<ul>                  <!-- The <ul> tag defines an unordered (bulleted) list. https://www.w3schools.com/tags/tag_ul.asp -->
+    <li></li>
+</ul>
+
+
+<!-- Table -->
+<table>                             <!-- https://www.w3schools.com/tags/tag_table.asp -->
+    <caption>Caption</caption>      <!-- The <caption> tag must be inserted immediately after the <table> tag. https://www.w3schools.com/tags/tag_caption.asp -->
+    <tr>
+        <th>Text</th> <!-- Table Header -->
+    </tr>
+    <tr>
+        <td>Text</td> <!-- Table data -->
+    </tr>
+</table>
+
+
+<!-- Form -->
+<form action="URL" method="get/post"></form>         <!-- The <form> allows users to input and submit data via text fields and other controls to a server for processing. https://www.w3schools.com/tags/tag_form.asp -->
+
+
+<!-- Input -->
+<form></form>
+    <label for="input"></label>                 <!-- Defines a label for an <input> element https://www.w3schools.com/tags/tag_label.asp -->
+    <input type="" name="" id="input" required>  <!-- The <input> tag specifies an input field where the user can enter data.  https://www.w3schools.com/tags/tag_input.asp -->
+</form>
+
+
+<!-- Text area -->
+<textarea name="" id="Specifies a unique id for an element"></textarea>     <!-- The <textarea> tag defines a multi-line text input control. https://www.w3schools.com/tags/tag_textarea.asp -->
+
+
+<!-- Drop-down -->
+<select name="" id="Specifies a unique id for an element">                  <!-- Defines a drop-down list https://www.w3schools.com/tags/tag_select.asp -->
+    <option value=""></option>
+</select>
+
+
+<!-- Details -->
+<details>                               <!-- Semantic element and interactive widget. The <details> tag specifies additional details that the user can open and close on demand. https://www.w3schools.com/tags/tag_details.asp -->
+    <summary>Front text</summary>       <!-- Text that's seen -->
+    <p>Text when clicked drops down to see.</p></details> 
+
+
+<!-- Data List -->
+<datalist id="Specifies a unique id for an element">                        <!-- The <datalist> tag specifies a list of pre-defined options for an <input> element. It also is used to provide an "autocomplete" feature for <input> elements.  https://www.w3schools.com/tags/tag_datalist.asp -->
+    <option value="">
+</datalist>
+
+
+<!-- Button -->
+<button></button>                       <!-- The <button> tag creates a clickable button. https://www.w3schools.com/tags/tag_button.asp -->
+
+
+<!-- Fieldset -->
+<form action="">
+    <fieldset>                          <!-- The <fieldset> tag is used to group related elements in a form and draws a box around the related elements  https://www.w3schools.com/tags/tag_fieldset.asp -->
+        <legend>Caption</legend>               <!-- Used to define a caption for <fieldset> elements. -->
+        <div>
+            <input type="text" name="" id="">
+        </div>
+    </fieldset>
+</form>
+
+
+<!-- Image -->
+<img src="Specifies the path to the image" alt="alternate text for the image if can't be displayed"> <!-- https://www.w3schools.com/tags/tag_img.asp -->
+
+
+<!-- Picture -->
+<picture>                               <!-- container for multiple image resources https://www.w3schools.com/tags/tag_picture.asp -->
+    <source srcset="" media="(max-width: 600px)"> <!-- Defines multiple media resources for media elements -->
+    <source srcset="Specifies the URL of the image to use in different situations" media="(max-width: 800px)">
+    <img src="Specifies the path to the image" alt="alternate text">
+</picture>
+
+
+<!-- Figure -->
+<figure>                             <!-- Semantic element. The <figure> tag specifies self-contained content. https://www.w3schools.com/tags/tag_figure.asp -->
+    <img src="image" alt="">
+    <figcaption>Caption</figcaption>
+</figure> 
+
+
+<!-- iframe -->
+<iframe src="URL" frameborder="0"></iframe> <!-- An inline frame is used to embed another document within the current HTML document https://www.w3schools.com/tags/tag_iframe.asp -->
+
+
+<!-- Audio -->
+<audio controls>                            <!-- A media element for embedding sound content into a web page.  https://www.w3schools.com/tags/tag_audio.asp -->
+    <source src=".ogg" type="audio/ogg">
+    <source src=".mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+</audio> 
+
+
+<!-- Video -->
+<video width="320" height="240" controls>   <!-- A media element for embedding video content into a web page.  https://www.w3schools.com/tags/tag_video.asp -->
+    <source src=".mp4" type="video/mp4">
+    <source src=".ogg" type="video/ogg">
+    Your browser does not support the video tag.
+</video> 
+
+
+
+<!--   Attributes  -->
+
+
+<!-- ARIA -->  <!-- https://www.w3schools.com/accessibility/accessibility_labels.php -->
+<input placeholder="Enter search term" aria-label="Enter search term">

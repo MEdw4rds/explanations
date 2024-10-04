@@ -1,0 +1,30 @@
+/* This is external CSS */
+
+body /* selector */ {
+    background-color /* Property */ : black; /* Value */
+}
+
+p, h2, h1 { /* Targets all <p> <h1> and <h2> elements */ 
+}
+
+section > p { /* Targets only direct <p> desendants of a <div> */
+<section>
+    <div>
+        <p>Won't target this one</p>
+    </div>
+    
+    <p>Will target this one</p>
+</section>
+}
+
+p:hover{ /* :hover is a pseudo class that applys the style when the mouse is over the object */
+}
+
+p ~ span{ /* ~ Targets only siblings */
+    <div>
+        <p>Be true to your work, your word, and your friend.</p>
+        <span>Luck is believing you're lucky.</span>
+    </div>
+}
+
+/*  */ 
